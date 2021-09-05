@@ -28,28 +28,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#8000"
-        android:orientation="horizontal">
+        android:padding="8dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/recognitionName"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:padding="8dp"
+            android:paddingBottom="2dp"
+            android:layout_gravity="center"
             android:text="@{recognitionItem.label}"
-            android:textColor="@color/white"
+            android:textColor="@android:color/holo_orange_dark"
             android:textAppearance="?attr/textAppearanceHeadline6"
             tools:text="Orange" />
 
         <TextView
             android:id="@+id/recognitionProb"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="end"
-            android:padding="8dp"
+            android:layout_gravity="center_horizontal"
             android:text="@{recognitionItem.probabilityString}"
-            android:textColor="@color/white"
+            android:textColor="@android:color/holo_orange_dark"
             android:textAppearance="?attr/textAppearanceHeadline6"
             tools:text="99%" />
 
