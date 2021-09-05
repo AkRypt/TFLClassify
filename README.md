@@ -1,3 +1,9 @@
+# Made small modifications to the UI and the dataset for personal use.
+
+The credit goes to the real author of this repository. I'm still in the learning phase so just trying out various things.
+
+
+
 # Recogonize Flowers with TensorFLow Lite Model Maker and Android Studio ML Model Binding
 
 This folder contains the code for the TensorFlow Lite codelab:
